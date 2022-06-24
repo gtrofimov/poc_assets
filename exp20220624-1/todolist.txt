@@ -1,0 +1,43 @@
+check if needed: 
+	regenretae neccessary data sets 
+	paplf/baplf
+
+
+TODO:
+
+post business
+	timestamp
+post app/account
+	timestamp
+get account
+	account type code
+	balances
+	redacted
+
+get business
+	timestamps
+
+get person
+	timestamp
+
+post card
+	timestamps
+	cardOrderOnApproval
+
+get card
+	redacted fields
+
+failovers/validation
+
+
+for Grigori:
+empty fields
+	if object is empty remove
+	remove impact on script
+	owners
+	signers
+	cards
+	businessRelations
+
+key column
+[*-xxxxxxxxxxxxxxxxxx]
