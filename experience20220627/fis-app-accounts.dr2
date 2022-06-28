@@ -1,0 +1,251 @@
+{
+  "_ds_app-accounts" : [ {
+    "_id" : "62b8b872c1d0e362901fac7d",
+    "_key" : {
+      "aaply_key" : "1"
+    },
+    "_size" : 1,
+    "_criteria" : "false",
+    "_value" : [ "62b8b872c1d0e362901fac7e" ],
+    "_type" : "root"
+  }, {
+    "_id" : "62b8bae4c1d0e362901fac96",
+    "_key" : {
+      "aaply_key" : "aaply-c0d34-4cD621b0-DaD4-b71a-D0b2-FE8E2AfFf971"
+    },
+    "_value" : [ "62b8bae4c1d0e362901fac95" ],
+    "_size" : 1,
+    "_type" : "root",
+    "_criteria" : "false"
+  }, {
+    "_id" : "62b9ed78c1d0e362901fad6a",
+    "_key" : {
+      "aaply_key" : "aaply-c7EE4-a240AEc0-0C2B-a6B6-31D0-ace8AD03191E"
+    },
+    "_value" : [ "62b9ed78c1d0e362901fad69" ],
+    "_size" : 1,
+    "_type" : "root",
+    "_criteria" : "false"
+  }, {
+    "_id" : "62ba0c12c1d0e355443cfb5b",
+    "_key" : {
+      "aaply_key" : "aaply-E0dE5-9e4F3aCf-cdCC-24ea-7b6E-1C629eCEbc32"
+    },
+    "_value" : [ "62ba0c12c1d0e355443cfb5a" ],
+    "_size" : 1,
+    "_type" : "root",
+    "_criteria" : "false"
+  } ],
+  "_dsr_app-accounts" : [ {
+    "_id" : "62b8b872c1d0e362901fac85",
+    "rows" : [ "62b8b872c1d0e362901fac7d", "62b8bae4c1d0e362901fac96", "62b9ed78c1d0e362901fad6a", "62ba0c12c1d0e355443cfb5b" ],
+    "rows_index" : 0,
+    "rows_count" : 4
+  } ],
+  "_metadata" : [ {
+    "_id" : "62b8b872c1d0e362901fac77",
+    "_recordType" : "accountHolders",
+    "item" : {
+      "type" : "RECORD",
+      "ref" : "item"
+    }
+  }, {
+    "_id" : "62b8b872c1d0e362901fac78",
+    "_recordType" : "item",
+    "item" : {
+      "type" : "STRING"
+    }
+  }, {
+    "_id" : "62b8b872c1d0e362901fac76",
+    "_recordType" : "root",
+    "id" : {
+      "type" : "STRING"
+    },
+    "status" : {
+      "type" : "STRING"
+    },
+    "createdAccount" : {
+      "type" : "STRING"
+    },
+    "accountHolders" : {
+      "type" : "RECORD",
+      "ref" : "accountHolders"
+    },
+    "createdAt" : {
+      "type" : "STRING"
+    },
+    "lastUpdatedAt" : {
+      "type" : "STRING"
+    },
+    "accountBaseInformation" : {
+      "type" : "RECORD",
+      "ref" : "accountBaseInformation"
+    },
+    "accountAttributesPatch" : {
+      "type" : "RECORD",
+      "ref" : "accountAttributesPatch"
+    }
+  }, {
+    "_id" : "62b8b872c1d0e362901fac7a",
+    "_recordType" : "accountHolders2",
+    "item" : {
+      "type" : "RECORD",
+      "ref" : "item"
+    }
+  }, {
+    "_id" : "62b8b872c1d0e362901fac79",
+    "_recordType" : "accountBaseInformation",
+    "type" : {
+      "type" : "STRING"
+    },
+    "accountHolders2" : {
+      "type" : "RECORD",
+      "ref" : "accountHolders2"
+    }
+  }, {
+    "_id" : "62b8b872c1d0e362901fac7b",
+    "_recordType" : "accountAttributesPatch",
+    "accountAlias" : {
+      "type" : "STRING"
+    }
+  }, {
+    "_id" : "62b8b872c1d0e362901fac7c",
+    "_recordType" : "_ds_app-accounts",
+    "_value" : {
+      "type" : "RECORD",
+      "ref" : "root"
+    },
+    "aaply_key" : {
+      "type" : "STRING"
+    }
+  } ],
+  "_parasoft" : [ {
+    "_id" : "62b8b872c1d0e362901fac75",
+    "products" : [ {
+      "name" : "DataRepository",
+      "version" : "2"
+    } ]
+  } ],
+  "accountAttributesPatch" : [ {
+    "_id" : "62b8b872c1d0e362901fac84",
+    "accountAlias" : "Business Checking"
+  }, {
+    "_id" : "62b8bae4c1d0e362901fac94",
+    "accountAlias" : "Busines Checking"
+  }, {
+    "_id" : "62b9ed78c1d0e362901fad68",
+    "accountAlias" : "Busines Checking"
+  }, {
+    "_id" : "62ba0c12c1d0e355443cfb59",
+    "accountAlias" : "Busines Checking"
+  } ],
+  "accountBaseInformation" : [ {
+    "_id" : "62b8b872c1d0e362901fac81",
+    "type" : "A33-demo-smb-checking-account",
+    "accountHolders2" : [ "62b8b872c1d0e362901fac82" ]
+  }, {
+    "_id" : "62b8bae4c1d0e362901fac91",
+    "type" : "A33-demo-individual-checking-account",
+    "accountHolders2" : [ "62b8bae4c1d0e362901fac92" ]
+  }, {
+    "_id" : "62b9ed78c1d0e362901fad65",
+    "type" : "A33-demo-individual-checking-account",
+    "accountHolders2" : [ "62b9ed78c1d0e362901fad66" ]
+  }, {
+    "_id" : "62ba0c12c1d0e355443cfb56",
+    "type" : "A33-demo-individual-checking-account",
+    "accountHolders2" : [ "62ba0c12c1d0e355443cfb57" ]
+  } ],
+  "accountHolders" : [ {
+    "_id" : "62b8b872c1d0e362901fac7f",
+    "item" : [ "62b8b872c1d0e362901fac80" ]
+  }, {
+    "_id" : "62b8bae4c1d0e362901fac8f",
+    "item" : [ "62b8bae4c1d0e362901fac90" ]
+  }, {
+    "_id" : "62b9ed78c1d0e362901fad63",
+    "item" : [ "62b9ed78c1d0e362901fad64" ]
+  }, {
+    "_id" : "62ba0c12c1d0e355443cfb54",
+    "item" : [ "62ba0c12c1d0e355443cfb55" ]
+  } ],
+  "accountHolders2" : [ {
+    "_id" : "62b8b872c1d0e362901fac82",
+    "item" : [ "62b8b872c1d0e362901fac83" ]
+  }, {
+    "_id" : "62b8bae4c1d0e362901fac92",
+    "item" : [ "62b8bae4c1d0e362901fac93" ]
+  }, {
+    "_id" : "62b9ed78c1d0e362901fad66",
+    "item" : [ "62b9ed78c1d0e362901fad67" ]
+  }, {
+    "_id" : "62ba0c12c1d0e355443cfb57",
+    "item" : [ "62ba0c12c1d0e355443cfb58" ]
+  } ],
+  "item" : [ {
+    "_id" : "62b8b872c1d0e362901fac80",
+    "item" : "busns-foo"
+  }, {
+    "_id" : "62b8b872c1d0e362901fac83",
+    "item" : "baplf-foo"
+  }, {
+    "_id" : "62b8bae4c1d0e362901fac90",
+    "item" : "busns-02c4b-8EFb040D-bssA-C049-duB9-479BEcsAF5D3"
+  }, {
+    "_id" : "62b8bae4c1d0e362901fac93",
+    "item" : "baplf-02c4b-8EFb040D-bffA-C049-daB9-479BEcfAF5D3"
+  }, {
+    "_id" : "62b9ed78c1d0e362901fad64",
+    "item" : "busns-41D92-d8c8300B-CD4E-0D3u-7bsB-e8768u918uAc"
+  }, {
+    "_id" : "62b9ed78c1d0e362901fad67",
+    "item" : "baplf-41D92-d8c8300B-CD4E-0D3a-7bfB-e8768a918aAc"
+  }, {
+    "_id" : "62ba0c12c1d0e355443cfb55",
+    "item" : "busns-bcD20-6AC5uFs0-62D5-b3uA-8285-d9298BbA37B4"
+  }, {
+    "_id" : "62ba0c12c1d0e355443cfb58",
+    "item" : "baplf-bcD20-6AC5aFf0-62D5-b3aA-8285-d9298BbA37B4"
+  } ],
+  "root" : [ {
+    "_id" : "62b8b872c1d0e362901fac7e",
+    "id" : "aaply-foo",
+    "status" : "approved",
+    "createdAccount" : "accnt-foo",
+    "accountHolders" : [ "62b8b872c1d0e362901fac7f" ],
+    "createdAt" : "2021-11-30T08:43:50.143Z",
+    "lastUpdatedAt" : "2021-11-30T08:45:34.143Z",
+    "accountBaseInformation" : [ "62b8b872c1d0e362901fac81" ],
+    "accountAttributesPatch" : [ "62b8b872c1d0e362901fac84" ]
+  }, {
+    "_id" : "62b8bae4c1d0e362901fac95",
+    "id" : "aaply-c0d34-4cD621b0-DaD4-b71a-D0b2-FE8E2AfFf971",
+    "status" : "approved",
+    "createdAccount" : "accnt-c0d34-4cD621b0-DaD4-b71a-D0b2-FE8E2AfFf971",
+    "createdAt" : "2022-06-26 01:00:36 PM",
+    "lastUpdatedAt" : "2022-06-26 01:00:36 PM",
+    "accountHolders" : [ "62b8bae4c1d0e362901fac8f" ],
+    "accountBaseInformation" : [ "62b8bae4c1d0e362901fac91" ],
+    "accountAttributesPatch" : [ "62b8bae4c1d0e362901fac94" ]
+  }, {
+    "_id" : "62b9ed78c1d0e362901fad69",
+    "id" : "aaply-c7EE4-a240AEc0-0C2B-a6B6-31D0-ace8AD03191E",
+    "status" : "approved",
+    "createdAccount" : "accnt-c7EE4-a240AEc0-0C2B-a6B6-31D0-ace8AD03191E",
+    "createdAt" : "2022-06-27 10:48:40 AM",
+    "lastUpdatedAt" : "2022-06-27 10:48:40 AM",
+    "accountHolders" : [ "62b9ed78c1d0e362901fad63" ],
+    "accountBaseInformation" : [ "62b9ed78c1d0e362901fad65" ],
+    "accountAttributesPatch" : [ "62b9ed78c1d0e362901fad68" ]
+  }, {
+    "_id" : "62ba0c12c1d0e355443cfb5a",
+    "id" : "aaply-E0dE5-9e4F3aCf-cdCC-24ea-7b6E-1C629eCEbc32",
+    "status" : "approved",
+    "createdAccount" : "accnt-E0dE5-9e4F3aCf-cdCC-24ea-7b6E-1C629eCEbc32",
+    "createdAt" : "2022-06-27 12:59:14 PM",
+    "lastUpdatedAt" : "2022-06-27 12:59:14 PM",
+    "accountHolders" : [ "62ba0c12c1d0e355443cfb54" ],
+    "accountBaseInformation" : [ "62ba0c12c1d0e355443cfb56" ],
+    "accountAttributesPatch" : [ "62ba0c12c1d0e355443cfb59" ]
+  } ]
+}
